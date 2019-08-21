@@ -1,7 +1,7 @@
-const { GraphQLServer } = require('graphql-yoga');
-const http = require('http');
+const { ApolloServer, gql } = require('apollo-server-express');
+const express = require('express');
 
-const typeDefs = `
+const typeDefs = gql`
     type Query {
         countries: [String]
     }
@@ -15,11 +15,14 @@ const resolvers = {
     }
 };
 
-const server = new GraphQLServer({
+const server = new ApolloServer({
     typeDefs,
     resolvers,
+
 });
 
+const app = express();
 
+server.applyMiddleware({ app, path: '/' });
 
-module.exports = server.express;
+module.exports = app;

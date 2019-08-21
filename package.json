@@ -1,0 +1,24 @@
+{
+  "name": "squared-countries",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "now dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cezarsmpio/squared-countries.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cezarsmpio/squared-countries/issues"
+  },
+  "homepage": "https://github.com/cezarsmpio/squared-countries#readme",
+  "devDependencies": {
+    "now": "^16.1.2"
+  }
+}
