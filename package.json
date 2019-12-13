@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "now dev"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -18,7 +17,5 @@
     "url": "https://github.com/cezarsmpio/squared-countries/issues"
   },
   "homepage": "https://github.com/cezarsmpio/squared-countries#readme",
-  "devDependencies": {
-    "now": "^16.1.2"
-  }
+  "devDependencies": {}
 }
