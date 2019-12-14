@@ -8,10 +8,20 @@
   },
   "author": "Cezar Sampaio",
   "license": "ISC",
+  "engines": {
+    "node": "12.x"
+  },
   "dependencies": {
     "apollo-server-express": "^2.8.2",
+    "color-thief-node": "^1.0.3",
+    "colorthief": "^2.3.0",
+    "convert-svg-to-png": "^0.5.0",
     "express": "^4.17.1",
+    "get-image-colors": "^2.0.0",
     "graphql": "^14.4.2",
-    "stable": "^0.1.8"
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.8",
+    "stable": "^0.1.8",
+    "svg-to-dataurl": "^1.0.0"
   }
 }

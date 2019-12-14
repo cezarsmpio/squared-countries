@@ -1,0 +1,17 @@
+{
+    "version": 2,
+    "builds": [
+        { "src": "app/package.json", "use": "@now/static-build" },
+        { "src": "api/graphql/index.js", "use": "@now/node" }
+    ],
+    "routes": [
+        {
+            "src": "/api/(.*)",
+            "dest": "api/$1"
+        },
+        {
+            "src": "/(.*)",
+            "dest": "app/$1"
+        }
+    ]
+}
